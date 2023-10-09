@@ -1,7 +1,7 @@
 p {
 	color: blue;
 }
-p::after {
+p::hover {
 	content: "";
 	color: yellow;
 
