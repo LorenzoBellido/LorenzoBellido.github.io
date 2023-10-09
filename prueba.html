@@ -6,11 +6,17 @@
     <meta name="descrption" content="Prueba">
     <meta name="author" content="Lorenzo">
     <meta name="keywords" content="HTML, CSS, JavaScript">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <style>
       body {background-color: powderblue;}
       h1 {color: red;}
-      p {color: blue;}
+/*      p {color: blue;}*/
     </style> 
+    
+  </head>
+  <body onload="saludo()">
+    <h1 id="titulo" onclick="cambia_color()">Hola mundo</h1>
+    <p>Hola mundo</p>
     <script>
       function saludo(){
         alert("Bienvenido");
@@ -19,10 +25,6 @@
         document.getElementById("titulo").style.
           color="darkgreen"
       }
-    </script>
-  </head>
-  <body onload="saludo()">    
-    <h1 id="titulo" onclick="cambia_color()">Hola mundo</h1>
-    <p>Hola mundo</p>
+    </script>  
   </body>
 </html>
