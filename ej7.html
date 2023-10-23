@@ -6,7 +6,7 @@
 	<title>Ejercicio 7</title>
 </head>
 <body>
-	<form action="https://www.w3schools.com/action_page.php" method="post">
+	<form action="https://lm.ciclo.iesnervion.es/" method="post">
 		<fieldset>
 			<legend>Receta</legend>
 			<label for="nombre">Nombre de la Receta</label>
@@ -14,11 +14,11 @@
 			<label for="correo">Correo del Autor</label>
 				<input required placeholder="Introduzca su Correo" size="25" type="email" name="correo" id="correo"><br>
 			<label>Momento para Comer</label>
-				<input type="checkbox" name="momento[]" id="momento[]" value="Desayuno">Desayuno
-				<input type="checkbox" name="momento[]" id="momento[]" value="Almuerzo">Almuerzo
-				<input type="checkbox" name="momento[]" id="momento[]" value="Merienda">Merienda
-				<input type="checkbox" name="momento[]" id="momento[]" value="Cena">Cena
-				<input type="checkbox" name="momento[]" id="momento[]" value="Postre">Postre <br><br>
+				<input type="checkbox" name="momento[]" id="momentoD[]" value="Desayuno">Desayuno
+				<input type="checkbox" name="momento[]" id="momentoA[]" value="Almuerzo">Almuerzo
+				<input type="checkbox" name="momento[]" id="momentoM[]" value="Merienda">Merienda
+				<input type="checkbox" name="momento[]" id="momentoC[]" value="Cena">Cena
+				<input type="checkbox" name="momento[]" id="momentoP[]" value="Postre">Postre <br><br>
 			<select multiple name="ingredientes[]" id="ingredientes[]">
 	            <optgroup label="Carne">
 	                <option>Pollo</option>
@@ -42,14 +42,14 @@
 	         	   </optgroup>
        		 </select><br><br>
 			<label>Tiempo de Preparación</label>
-				<input required type="radio" name="horas" id="horas" value="0 h">0 h
-				<input required type="radio" name="horas" id="horas" value="1 h">1 h
-				<input required type="radio" name="horas" id="horas" value="2 h">2 h
-				<input required type="radio" name="horas" id="horas" value="3 h">3 h<br>
-				<input required type="radio" name="minutos" id="minutos" value="0 min">0 min
-				<input required type="radio" name="minutos" id="minutos" value="15 min">15 min
-				<input required type="radio" name="minutos" id="minutos" value="30 min">30 min
-				<input required type="radio" name="minutos" id="minutos" value="45 min">45 min<br><br>
+				<input required type="radio" name="horas" id="horas0" value="0">0 h
+				<input required type="radio" name="horas" id="horas1" value="1">1 h
+				<input required type="radio" name="horas" id="horas2" value="2">2 h
+				<input required type="radio" name="horas" id="horas3" value="3">3 h<br>
+				<input required type="radio" name="minutos" id="minutos0" value="0">0 min
+				<input required type="radio" name="minutos" id="minutos15" value="15">15 min
+				<input required type="radio" name="minutos" id="minutos30" value="30">30 min
+				<input required type="radio" name="minutos" id="minutos45" value="45">45 min<br><br>
 			<label>Imagen (opcional)</label><br>
 				<input type="file" id="foto" name="foto" /> <br>
 		</fieldset>
