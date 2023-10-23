@@ -10,53 +10,51 @@
 		<fieldset>
 			<legend>Receta</legend>
 			<label for="nombre">Nombre de la Receta</label>
-			<input type="text" name="nombre" id="nombre"><br>
+				<input required autofocus type="text" name="nombre" id="nombre"><br>
 			<label for="correo">Correo del Autor</label>
-			<input type="email" name="correo" id="correo"><br>
+				<input required placeholder="Introduzca su Correo" size="25" type="email" name="correo" id="correo"><br>
 			<label>Momento para Comer</label>
-			<input type="checkbox" name="momento" id="momento" >Desayuno
-			<input type="checkbox" name="momento" id="momento" >Almuerzo
-			<input type="checkbox" name="momento" id="momento" >Merienda
-			<input type="checkbox" name="momento" id="momento" >Cena
-			<input type="checkbox" name="momento" id="momento" >Postre <br><br>
+				<input type="checkbox" name="momento[]" id="momento[]" value="Desayuno">Desayuno
+				<input type="checkbox" name="momento[]" id="momento[]" value="Almuerzo">Almuerzo
+				<input type="checkbox" name="momento[]" id="momento[]" value="Merienda">Merienda
+				<input type="checkbox" name="momento[]" id="momento[]" value="Cena">Cena
+				<input type="checkbox" name="momento[]" id="momento[]" value="Postre">Postre <br><br>
 			<select multiple name="ingredientes" id="ingredientes">
-            <optgroup label="Carne" >
-                <option>Pollo</option>
-                <option>Cerdo</option>
-                <option>Vaca</option>
-          	  </optgroup>
-          	  <optgroup label="Pescado">
-                <option>Atún</option>
-                <option>Salmón</option>
-                <option>Boquerones</option>
-         	   </optgroup>
-         	    <optgroup label="Verdura">
-                <option>Patatas</option>
-                <option>Cebolla</option>
-                <option>Pimiento</option>
-         	   </optgroup>
-         	    <optgroup label="Fruta">
-                <option>Manzana</option>
-                <option>Pera</option>
-                <option>Naranja</option>
-         	   </optgroup>
+	            <optgroup label="Carne">
+	                <option>Pollo</option>
+	                <option>Cerdo</option>
+	                <option>Vaca</option>
+	          	 </optgroup>
+	          	 <optgroup label="Pescado">s
+	                <option>Atún</option>
+	                <option>Salmón</option>
+	                <option>Boquerones</option>
+	         	  </optgroup>
+	         	  <optgroup label="Verdura">
+	                <option>Patatas</option>
+	                <option>Cebolla</option>
+	                <option>Pimiento</option>
+	         	  </optgroup>
+	         	  <optgroup label="Fruta">
+	                <option>Manzana</option>
+	                <option>Pera</option>
+	                <option>Naranja</option>
+	         	   </optgroup>
        		 </select><br><br>
-			<label>Ingredientes</label>
-			<input type="checkbox" name="ingredientes" id="ingredientes" >Carne
-			<input type="checkbox" name="ingredientes" id="ingredientes" >Pescado
-			<input type="checkbox" name="ingredientes" id="ingredientes" >Verdura
-			<input type="checkbox" name="ingredientes" id="ingredientes" >Fruta<br><br>
 			<label>Tiempo de Preparación</label>
-			<input type="radio" name="horas" id="horas">0 h
-			<input type="radio" name="horas" id="horas">1 h
-			<input type="radio" name="horas" id="horas">2 h
-			<input type="radio" name="horas" id="horas">3 h <br>
-			<input type="radio" name="minutos" id="minutos">0 min
-			<input type="radio" name="minutos" id="minutos">15 min
-			<input type="radio" name="minutos" id="minutos">30 min
-			<input type="radio" name="minutos" id="minutos">45 min
+				<input required type="radio" name="horas" id="horas" value="0 h">0 h
+				<input required type="radio" name="horas" id="horas" value="1 h">1 h
+				<input required type="radio" name="horas" id="horas" value="2 h">2 h
+				<input required type="radio" name="horas" id="horas" value="3 h">3 h<br>
+				<input required type="radio" name="minutos" id="minutos" value="0 min">0 min
+				<input required type="radio" name="minutos" id="minutos" value="15 min">15 min
+				<input required type="radio" name="minutos" id="minutos" value="30 min">30 min
+				<input required type="radio" name="minutos" id="minutos" value="45 min">45 min<br><br>
+			<label>Imagen (opcional)</label><br>
+				<input type="file" id="foto" name="foto" /> <br>
 		</fieldset>
 		<input type="submit" name="Enviar" id="Enviar">
+		
 	</form>
 </body>
 </html>
