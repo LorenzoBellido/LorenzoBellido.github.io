@@ -1,0 +1,22 @@
+
+h1{
+	color: rgba(255, 255, 255, 1.0);
+	background-color: blue;
+}
+h2{
+	color: rgba(255, 255, 255, 0.6);
+	background-color: red;
+}
+p{
+	font-size: 1.2em;
+	font-family: "Arial";
+	font-weight: bold;
+	text-align: center;
+}
+ul{
+	font-style: italic;
+	text-shadow: 2px 4px 3px red;
+}
+ol{
+	text-shadow: 2px 4px 3px blue;
+}

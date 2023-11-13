@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Formulario</title>
+</head>
+<body>
+<form action="www.www.es" method="post">
+	<fieldset>
+		<legend>Curriculum</legend>
+		<label for="nombre">Nombre:</label>
+		<input type="text" name="nombre"><br>
+		<label for="email">Correo electrónico:</label>
+		<input type="email" name="email"><br>
+		<label for="telefono">Teléfono:</label>
+		<input type="number" name="telefono"><br>
+		<label for="asunto">Asunto:</label>
+		<input type="text" name="asunto"><br>
+		<label>Adjuntar archivo</label><br>
+		<input type="file" id="foto" name="foto" /> <br>
+		<label for="mensaje">Mensaje:</label>
+		<input type="text" name="mensaje"><br>
+		<label>Motivo de contacto</label>
+				<input required type="radio" name="empleo" id="empleo" value="">Consulta empleo
+				<input required type="radio" name="general" id="general" value="">Consulta general
+	</fieldset>
+	<input type="submit" name="Enviar" id="Enviar">
+	<input type="reset" name="Borrar" id="Borrar">
+</form>
+<p align="right"><a href="../index.html"><img width="50px" src="../img/atras.png" alt="Logo volver atras"></a></p>
+</body>
+</html>
