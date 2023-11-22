@@ -9,6 +9,7 @@
 }
 #divcentro{
 	display: flex;
+	justify-content: center;
 	border: 1px solid black;
 	background-color: lightblue;
 	width: 50px;
