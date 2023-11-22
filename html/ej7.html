@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ejercicio 7</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body style="background-color: rgb(253, 235, 208);">
+	<a href="index.html"> Volver al inicio</a> <hr> <br>
+	<form action="https://lm.ciclo.iesnervion.es/" method="post">
+		<fieldset style="background-color: lightgrey;">
+			<legend>Receta</legend>
+			<label for="nombre">Nombre de la Receta</label>
+				<input required autofocus type="text" name="nombre" id="nombre"><br>
+			<label for="correo">Correo del Autor</label>
+				<input required placeholder="Introduzca su Correo" size="25" type="email" name="correo" id="correo"><br>
+			<label>Momento para Comer: </label>
+				<input  type="checkbox" name="momento[]" id="momentoD[]" value="Desayuno">Desayuno
+				<input type="checkbox" name="momento[]" id="momentoA[]" value="Almuerzo">Almuerzo
+				<input type="checkbox" name="momento[]" id="momentoM[]" value="Merienda">Merienda
+				<input type="checkbox" name="momento[]" id="momentoC[]" value="Cena">Cena
+				<input type="checkbox" name="momento[]" id="momentoP[]" value="Postre">Postre <br><br>
+			<select multiple name="ingredientes[]" id="ingredientes[]">
+	            <optgroup label="Carne">
+	                <option>Pollo</option>
+	                <option>Cerdo</option>
+	                <option>Vaca</option>
+	          	 </optgroup>
+	          	 <optgroup label="Pescado">s
+	                <option>Atún</option>
+	                <option>Salmón</option>
+	                <option>Boquerones</option>
+	         	  </optgroup>
+	         	  <optgroup label="Verdura">
+	                <option>Patatas</option>
+	                <option>Cebolla</option>
+	                <option>Pimiento</option>
+	         	  </optgroup>
+	         	  <optgroup label="Fruta">
+	                <option>Manzana</option>
+	                <option>Pera</option>
+	                <option>Naranja</option>
+	         	   </optgroup>
+       		 </select><br><br>
+			<label>Tiempo de Preparación</label>
+				<input required type="radio" name="horas" id="horas0" value="0">0 h
+				<input required type="radio" name="horas" id="horas1" value="1">1 h
+				<input required type="radio" name="horas" id="horas2" value="2">2 h
+				<input required type="radio" name="horas" id="horas3" value="3">3 h<br>
+				<input required type="radio" name="minutos" id="minutos0" value="0">0 min
+				<input required type="radio" name="minutos" id="minutos15" value="15">15 min
+				<input required type="radio" name="minutos" id="minutos30" value="30">30 min
+				<input required type="radio" name="minutos" id="minutos45" value="45">45 min<br><br>
+			<label>Imagen (opcional)</label><br>
+				<input type="file" id="foto" name="foto" /> <br>
+		</fieldset>
+		<input type="submit" name="Enviar" id="Enviar">
+		
+	</form>
+</body>
+</html>

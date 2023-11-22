@@ -1,0 +1,32 @@
+#t1{
+	margin-top: 10px;
+	margin-left: 25%;
+	border: 1px solid black;
+	align-content: center;
+	width: 50%;
+}
+td {
+	border: 1px solid black;
+	padding: 10px;
+}
+
+.table{
+	border: 1px solid black;
+	width: 50%;
+	margin-top: 10px;
+	margin-left: 25%;
+}
+.tr{
+	display: flex;
+	justify-content: center;
+	margin: 1px;
+	
+}
+.td{
+	width: 100%;
+	border: 1px solid black;
+	padding: 10px;
+	margin: 1px;
+	display: inline-block;
+}
+
