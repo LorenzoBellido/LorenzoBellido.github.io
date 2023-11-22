@@ -1,7 +1,15 @@
 #caja{
+	display: flex;
+	justify-content: center;
 	width: 400px;
 	border: 1px solid black;
 	background-color: lightyellow;
 	margin: 20px;
 	padding: 10px;	
+}
+#divcentro{
+	display: flex;
+	border: 1px solid black;
+	background-color: lightblue;
+	width: 50px;
 }
