@@ -1,0 +1,14 @@
+body{
+	margin: 5%;
+}
+nav{position: absolute;
+	margin-left: 600px;
+	border: solid 1px black;
+}
+nav ul {
+	width: 560px;
+}
+nav ul li{
+	padding: 10px;
+	display: inline-block;
+}
