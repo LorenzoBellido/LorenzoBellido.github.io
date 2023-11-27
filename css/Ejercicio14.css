@@ -1,16 +1,93 @@
 #caja{
 	display: flex;
 	justify-content: center;
-	width: 400px;
+	width: 600px;
 	border: 1px solid black;
 	background-color: lightyellow;
 	margin: 20px;
 	padding: 10px;	
+	font-family: 'Vina Sans', sans-serif;
 }
-#divcentro{
+
+.div{
 	display: flex;
 	justify-content: center;
-	border: 1px solid black;
-	background-color: lightblue;
 	width: 50px;
+	border: 1px solid black;
+	background-color: lightskyblue;
+	margin: 20px;
+	padding: 10px;	
+}
+
+#div1:hover{
+	color: white;
+	background-color: blue;
+	transition-duration: 1s;
+}
+#div2:hover{
+	color: white;
+	background-color: red;
+	transition-duration: 1s;
+	font-family: 'Vina Sans', sans-serif;
+}
+#div3:hover{
+	color: black;
+	background-color: yellow;
+	transition-duration: 1s;
+}
+#div4{
+	animation-name: change-color;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	color: black;
+}
+
+#div5{
+	animation-name: move;
+	animation-duration: 7s;
+	animation-iteration-count: infinite;
+	animation-direction: reverse;
+}
+#div6{
+	animation-name: move-change-color;
+	animation-duration: 7s;
+	animation-iteration-count: infinite;
+}
+
+	@keyframes change-color {
+  from { background: red; }  /* Primer fotograma */
+  to { background: green; }  /* Segundo y último fotograma */
+}
+@keyframes move{
+	from{ margin-left: 0 }
+	to{margin-left: 90%}
+}
+@keyframes move-change-color{
+	from{ margin-left: 0 }
+	to{margin-left: 90%}
+	   0% {
+    background: red;         /* Primer fotograma */
+  }
+  50% {
+    background: yellow;      /* Segundo fotograma */
+    width: 150px;
+  }
+  100% {
+    background: green;       /* Último fotograma */
+  }
+}
+
+@media (max-width: 550px) {
+	#caja{
+		display: flex;
+		justify-content: center;
+		width: 350px;
+		border: 1px solid red;
+		background-color: indianred;
+		font-size: 0.7em;
+		margin: 10px;
+		padding: 5px;	
+		font-family: 'Josefin Sans', sans-serif;
+	}	
+	
 }
