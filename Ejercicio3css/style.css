@@ -1,0 +1,269 @@
+.body{
+	background-color: #FFBB8C;
+}
+nav{
+	background-color: #FF8937;
+}
+
+h3{
+	display: inline-block;
+}
+
+
+footer {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(40, 39, 43);
+}
+
+.pie-pagina .grupo-1 {
+  width: 90%;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 30px;
+  padding: 35px 0px;
+  margin-left: 35px;
+}
+
+.pie-pagina .grupo-1 h2 {
+  color: #ededed;
+  margin-bottom: 25px;
+  font-size: 25px;
+  transition: 300ms;
+  padding-top: 10px;
+}
+
+.pie-pagina .grupo-1 h2:hover {
+  color: goldenrod;
+}
+
+.pie-pagina .grupo-1 p {
+  color: #ededed;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.pie-pagina .grupo-1 .box1 {
+  display: flex;
+  justify-content: center;
+}
+
+.pie-pagina .grupo-1 .box1 img {
+  width: 500px;
+}
+
+.pie-pagina .grupo-1 #red-social a:nth-child(1) {
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: rgb(255, 255, 255);
+  margin-right: 10px;
+  background-color: rgb(30, 30, 30);
+  text-align: center;
+  transition: all 300ms ease;
+  border-radius: 10px;
+}
+
+.pie-pagina .grupo-1 #red-social a:nth-child(1):hover {
+  color: rgb(255, 36, 36);
+}
+
+.pie-pagina .grupo-1 #red-social a:nth-child(2) {
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: rgb(255, 255, 255);
+  margin-right: 10px;
+  background-color: rgb(30, 30, 30);
+  text-align: center;
+  transition: all 300ms ease;
+  border-radius: 10px;
+}
+
+.pie-pagina .grupo-1 #red-social a:nth-child(2):hover {
+  color: rgb(0, 16, 189);
+}
+
+.pie-pagina .grupo-1 #red-social a:nth-child(3) {
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: rgb(255, 255, 255);
+  margin-right: 10px;
+  background-color: rgb(30, 30, 30);
+  text-align: center;
+  transition: all 300ms ease;
+  border-radius: 10px;
+}
+
+.pie-pagina .grupo-1 #red-social a:nth-child(3):hover {
+  color: rgb(255, 0, 123);
+}
+
+.pie-pagina .grupo-1 #red-social a:nth-child(4) {
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: rgb(255, 255, 255);
+  margin-right: 10px;
+  background-color: rgb(30, 30, 30);
+  text-align: center;
+  transition: all 300ms ease;
+  border-radius: 10px;
+}
+
+.pie-pagina .grupo-1 #red-social a:nth-child(4):hover {
+  color: rgb(0, 116, 232);
+}
+
+.pie-pagina .grupo-2 {
+  color: #ededed;
+  text-align: center;
+  background-color: rgb(30, 30, 30);
+}
+
+.pie-pagina .grupo-2 a {
+  padding: 2px 6px;
+  color: #ededed;
+  text-decoration: none;
+}
+
+.pie-pagina .grupo-2 a:hover {
+  text-decoration: underline;
+}
+
+
+@media(min-width: 700px){
+	 .pie-pagina {
+    width: 100%;
+    background-color: rgb(40, 39, 43);
+  }
+  
+  .pie-pagina .grupo-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0;
+  }
+  
+  .pie-pagina .grupo-1 .box1 figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .pie-pagina .grupo-1 .box1 img {
+    width: 100%;
+  }
+  
+  .pie-pagina .grupo-1 h2 {
+    color: #ededed;
+    margin-bottom: 25px;
+    font-size: 25px;
+    transition: 300ms;
+  }
+  
+  .pie-pagina .grupo-1 h2:hover {
+    color: goldenrod;
+  }
+  
+  .pie-pagina .grupo-1 .box p {
+    color: #ededed;
+    margin-bottom: 10px;
+  }
+  
+  .pie-pagina .grupo-1 #red-social a:nth-child(1) {
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: rgb(255, 255, 255);
+    margin-right: 10px;
+    background-color: rgb(30, 30, 30);
+    text-align: center;
+    transition: all 300ms ease;
+  }
+  
+  .pie-pagina .grupo-1 #red-social a:nth-child(1):hover {
+    color: rgb(255, 36, 36);
+  }
+
+  .pie-pagina .grupo-1 #red-social a:nth-child(2) {
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: rgb(255, 255, 255);
+    margin-right: 10px;
+    background-color: rgb(30, 30, 30);
+    text-align: center;
+    transition: all 300ms ease;
+  }
+  
+  .pie-pagina .grupo-1 #red-social a:nth-child(2):hover {
+    color: rgb(0, 16, 189);
+  }
+
+  .pie-pagina .grupo-1 #red-social a:nth-child(3) {
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: rgb(255, 255, 255);
+    margin-right: 10px;
+    background-color: rgb(30, 30, 30);
+    text-align: center;
+    transition: all 300ms ease;
+  }
+  
+  .pie-pagina .grupo-1 #red-social a:nth-child(3):hover {
+    color: rgb(255, 0, 123);
+  }
+
+  .pie-pagina .grupo-1 #red-social a:nth-child(4) {
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: rgb(255, 255, 255);
+    margin-right: 10px;
+    background-color: rgb(30, 30, 30);
+    text-align: center;
+    transition: all 300ms ease;
+  }
+  
+  .pie-pagina .grupo-1 #red-social a:nth-child(4):hover {
+    color: rgb(0, 116, 232);
+  }
+  
+  .pie-pagina .grupo-2 {
+    background-color: rgb(30, 30, 30);
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    color: #ededed;
+  }
+  
+  .pie-pagina .grupo-2 small {
+    font-size: 15px;
+  }
+}
+
+}
