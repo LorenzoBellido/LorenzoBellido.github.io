@@ -5,12 +5,25 @@ nav{
 	background-color: #FF8937;
 }
 
+
 h3{
 	display: inline-block;
 }
 
+#goat{
+  margin-top: 40px;
+}
+
+.ligas{
+  width: 30px;
+}
+
+.team{
+  width: 20px;
+}
 
 footer {
+  margin-bottom: 0;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -266,4 +279,3 @@ footer {
   }
 }
 
-}
